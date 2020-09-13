@@ -11,10 +11,10 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   # If getting the source from GitHub, remove the line above,
   # uncomment the line below, and modify as needed. Use releases if available:
-  # url: https://github.com/simplejson/simplejson/releases/download/{{ version }}/simplejson-{{ version }}.tar.gz
+  url: https://github.com/kinverarity1/{{ name }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
   # and otherwise fall back to archive:
   # url: https://github.com/simplejson/simplejson/archive/v{{ version }}.tar.gz
   sha256: 7d8dbef46f0c22ed743249dce9b3ce6b0bd28c142a2b8b7b89028146414fb0a1
